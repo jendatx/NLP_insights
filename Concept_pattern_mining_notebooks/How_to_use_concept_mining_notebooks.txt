@@ -1,0 +1,7 @@
+Guidance on concept mining notebooks
+
+Order of operations
+1. notebook to build vocabulary (must have access to clusters' vocabularies)
+2. notebook to produce map of vocab-to-cluster (creates the vocab hash map for speedy transformation)
+3. notebook to represent posts as concepts therein (transforms posts into baskets of concepts)
+4. notebook for association mining of the above post-concept-baskets (outputs the association rules)
